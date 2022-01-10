@@ -1,0 +1,6 @@
+framework module Pods_MixApp {
+  umbrella header "Pods-MixApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

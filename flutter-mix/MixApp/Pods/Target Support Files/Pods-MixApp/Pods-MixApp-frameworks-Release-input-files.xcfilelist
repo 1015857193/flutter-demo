@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MixApp/Pods-MixApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${PODS_ROOT}/../../custom_flutter/.ios/Flutter/App.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter

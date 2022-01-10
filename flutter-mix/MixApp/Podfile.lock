@@ -1,0 +1,35 @@
+PODS:
+  - custom_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - custom_flutter (from `../custom_flutter/.ios/Flutter`)
+  - Flutter (from `../custom_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../custom_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  custom_flutter:
+    :path: "../custom_flutter/.ios/Flutter"
+  Flutter:
+    :path: "../custom_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../custom_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  custom_flutter: 0dbda0ce34729043c99b47c3e665686899adc02a
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 7aaf7d00b6a480815280606643125ea94c082415
+
+COCOAPODS: 1.10.1

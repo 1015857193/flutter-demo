@@ -18,19 +18,21 @@ class _PlatformViewTestState extends State<PlatformViewTest> {
   var channel = MethodChannel('com.flutter.guide.MethodChannel');
 
   @override
-  void initState() {
+  void initState()  {
     // TODO: implement initState
     super.initState();
 
-
-
     channel.setMethodCallHandler((call) {
       print(call.arguments["count"]);
+      print(call.arguments["name"]);
     });
+    test();
+  }
 
+  void test() async{
 
-
-
+    var result = await channel.invokeMethod("sendData",{"name":"卢三","age":"19"});
+    print(result['name']);
   }
 
 
@@ -101,4 +103,5 @@ class _PlatformViewTestState extends State<PlatformViewTest> {
     );
   }
 }
+
 

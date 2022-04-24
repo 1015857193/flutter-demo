@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
-class SwiperPage extends StatefulWidget {
+class SwiperPage extends StatelessWidget {
 
   final Map arguments;
   final String title;
   SwiperPage({Key key, this.title,this.arguments}) : super(key: key);
 
-  _SwiperPageState createState() => _SwiperPageState();
-}
+//   _SwiperPageState createState() => _SwiperPageState();
+// }
+//
+// class _SwiperPageState extends State<SwiperPage> {
 
-class _SwiperPageState extends State<SwiperPage> {
-  List<Map> imgList = [
+ final List<Map> imgList = [
     {"url": "https://www.itying.com/images/flutter/1.png"},
     {"url": "https://www.itying.com/images/flutter/2.png"},
     {"url": "https://www.itying.com/images/flutter/3.png"},
@@ -45,11 +46,11 @@ class _SwiperPageState extends State<SwiperPage> {
                     itemBuilder: (context, index) {
                       return buildContainer(index);
                     },
-                    itemCount: imgList.length),
+                    itemCount: imgList?.length),
               ),
             ),
             Row(
-              children: <Widget>[Text("${widget.arguments["desc"]}")],
+              children: <Widget>[Text("test")],
             )
           ],
         ));

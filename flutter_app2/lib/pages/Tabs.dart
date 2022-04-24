@@ -64,6 +64,7 @@ class _TabsState extends State<Tabs> {
                     backgroundImage: NetworkImage(
                         "https://www.itying.com/images/flutter/3.png"),
                   ),
+                 // currentAccountPictureSize: Size(36, 36),
                   decoration: BoxDecoration(
                       image: DecorationImage(
                     image: NetworkImage(
@@ -76,6 +77,7 @@ class _TabsState extends State<Tabs> {
                     Image.network(
                         "https://www.itying.com/images/flutter/5.png"),
                   ],
+                 // otherAccountsPicturesSize: Size(144, 144),
                 ))
               ],
             ),

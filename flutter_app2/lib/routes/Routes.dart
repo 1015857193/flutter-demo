@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import '../pages/Tabs.dart';
 import '../pages/Swiper.dart';
 import '../pages/Dialog.dart';
+import 'package:flutter_app2/pages/tabs/GetJumpTwoLogic.dart';
 
 //配置路由
 final routes={
       '/':(context)=>Tabs(),
       '/swiper':(context,{arguments})=>SwiperPage(arguments:arguments),
       '/dialog':(context)=>DialogPage(),
+      '/twologic':(context,{arguments})=>GetJumpTwoPage(),
 };
 
 //固定写法

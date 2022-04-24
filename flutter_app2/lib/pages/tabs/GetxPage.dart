@@ -12,8 +12,6 @@ import 'package:flutter_app2/dio_util/dio_util.dart';
 import 'package:flutter_app2/dio_util/dio_method.dart';
 
 
-
-
 class GetxPage extends StatelessWidget {
 
 
@@ -25,6 +23,7 @@ class GetxPage extends StatelessWidget {
   }
 
   var teacher = Teacher();
+  bool isChangeTheme = false;
 
 
   @override
@@ -54,7 +53,12 @@ class GetxPage extends StatelessWidget {
                   increment();
                 //  Get.to(HomePage());
                   //切换主题
-                 Get.changeTheme(ThemeData.dark());
+                  if(!isChangeTheme ){
+                    Get.changeTheme(ThemeData.dark());
+                  }else{
+                    Get.changeTheme(ThemeData.light());
+                  }
+                  isChangeTheme = !isChangeTheme;
 
                   // var response = await Dio().get("http://apis.juhe.cn/fapig/douyin/billboard",queryParameters: {
                   //     "type":"hot_video",
@@ -64,14 +68,13 @@ class GetxPage extends StatelessWidget {
                   // if (response.statusCode == 200) {
                   //   var jsonString = response.data['result'];
                   // }
-                  DioUtil.instance.openLog();
-              var result = await DioUtil().request("/fapig/douyin/billboard",method: DioMethod.get,params: {
-                "type":"hot_video",
-                "size":"50",
-                "key":"9eb8ac7020d9bea6048db1f4c6b6d028"
-
-              });
-              print("123");
+              //     DioUtil.instance.openLog();
+              // var result = await DioUtil().request("/fapig/douyin/billboard",method: DioMethod.get,params: {
+              //   "type":"hot_video",
+              //   "size":"50",
+              //   "key":"9eb8ac7020d9bea6048db1f4c6b6d028"
+              //
+              // });
              // print(result);
               },
                 child: Text("点我加1"))

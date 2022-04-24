@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app2/routes/RouterConfig.dart';
 import 'routes/Routes.dart';
 import 'package:get/get.dart';
 
@@ -11,8 +12,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner:false ,  //去掉debug图标
       // home:Tabs(),
-      initialRoute: '/',     //初始化的时候加载的路由
-      onGenerateRoute: onGenerateRoute,
+      initialRoute: RouterConfig.main,     //初始化的时候加载的路由
+    //  onGenerateRoute: onGenerateRoute,
+      getPages: RouterConfig.getPages,
     );
   }
 }

@@ -7,6 +7,31 @@ class CategoryPage extends StatefulWidget {
 }
 
 class _CategoryPageState extends State<CategoryPage> {
+
+
+  List list;
+  Map map;
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    list = ["1","2","3","4","5"];
+
+     map = {0: 'apple', 1: 'orange', 2: 'mango'};
+
+
+  }
+
+
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -46,18 +71,12 @@ class _CategoryPageState extends State<CategoryPage> {
           children: <Widget>[
 
             ListView(
-                children: <Widget>[
-                  ListTile(
-                    title:Text("第一个tab")
-                  ),
-                  ListTile(
-                    title:Text("第一个tab")
-                  ),
-                  ListTile(
-                    title:Text("第一个tab")
-                  )
-                ],
-              ),
+              children: list.map((e) => ListTile(title:Text(e))).toList(),
+            ),
+            // ListView(
+            //   children: map.forEach((key, value) => ListTile(title:Text(value)))
+            // ),
+            //
             ListView(
                 children: <Widget>[
                   ListTile(

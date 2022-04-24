@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b67cb1d4-70af-4a5b-93b0-e0a7a0295ad1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/sport_grid_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/sport_record_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app1/lib/PlatformViewTest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app1/lib/PlatformViewTest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app2/lib/pages/Tabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/Tabs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Category.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Category.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/GetxPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/GetxPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Setting.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app2/lib/pages/tabs/Setting.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="288tkZAXl5xEGzPhSruEUsU3E9v" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b67cb1d4-70af-4a5b-93b0-e0a7a0295ad1" name="Default Changelist" comment="" />
+      <created>1650610183718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650610183718</updated>
+    </task>
+    <servers />
+  </component>
+</project>
